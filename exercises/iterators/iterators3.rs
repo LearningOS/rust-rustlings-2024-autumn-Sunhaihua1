@@ -9,7 +9,6 @@
 // Execute `rustlings hint iterators3` or use the `hint` watch subcommand for a
 // hint.
 
-
 #[derive(Debug, PartialEq, Eq)]
 pub enum DivisionError {
     NotDivisible(NotDivisibleError),
