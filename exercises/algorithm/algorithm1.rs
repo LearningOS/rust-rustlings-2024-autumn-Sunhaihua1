@@ -71,16 +71,8 @@ impl<T> LinkedList<T> {
     }
 	pub fn merge(list_a:LinkedList<T>,list_b:LinkedList<T>) -> Self
 	{
-        unsafe{
-            *list_a.end.next = list_b.start;
-        }
-		//TODO
-		Self {
-            length: list_a.length + list_b.length,
-            start: list_a.start,
-            end: list_b.end,
-        }
-	}
+        
+    }
 }
 
 impl<T> Display for LinkedList<T>
