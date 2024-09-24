@@ -44,7 +44,7 @@ mod tests {
         let mut graph = Graph::new(3);
         graph.add_edge(0, 1);
         graph.add_edge(1, 2);
-
+        
         let visit_order = graph.dfs(0);
         assert_eq!(visit_order, vec![0, 1, 2]);
     }
